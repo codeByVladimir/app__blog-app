@@ -11,23 +11,27 @@
     <title>blog-app</title>
 </head>
 <body>
-
-    <div class="container">
-        <div class="wrapper">
-            <form action="#" class="createPost-form">
-                <p class="info-text">Новый пост</p>
-                <input class="write__title" type="text" placeholder="Заголовок">
-                <textarea class="write__post" type="text" placeholder="Напиши пост"></textarea>
-                <button class="createPost" type="button">Опубликовать</button>
-            </form>
-            <div class="wrapper__renderBox">
-                <p class="info-text">Лента</p>
-                <ul class="post-lists">
-                    <span class="post-text">Здесь пока пусто...</span>
-                </ul>
+    <main class="main">
+        <div class="container">
+            <div class="wrapper">
+                <form action="#" class="createPost-form">
+                    <p class="info-text">Новый пост</p>
+                    <input class="write__title" type="text" placeholder="Заголовок">
+                    <textarea class="write__post" type="text" placeholder="Напиши пост"></textarea>
+                    <button class="createPost" type="button">Опубликовать</button>
+                </form>
+                <div class="wrapper__renderBox">
+                    <p class="info-text">Лента</p>
+                    <ul class="post-lists">
+                        <span class="post-text">Здесь пока пусто...</span>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
+    </main>
+    <script src="MVC/model.js"></script>
+    <script src="MVC/view.js"></script>
+    <script src="MVC/controller.js"></script>
     <script src="index.js"></script>
 </body>
 </html>
